@@ -110,10 +110,11 @@ img {
   #lezioni .row>.left,
   #lezioni .row>.right{
     width: 100%;
-    margin: 30px;
+    margin: 15px 30px;
   }
   #lezioni{
     background-color: #f2f2cd;
+    padding: 20px;
   }
 
 
@@ -122,7 +123,23 @@ img {
   #steps .row>.central,
   #steps .row>.right {
   width: 100%;
-  margin: 30px;
+  margin: 15px 30px;
   }
 
+  /* BLOCCO PERCHE */
+  #why .row>.first,
+  #why .row>.second,
+  #why .row>.third {
+  width: 100%;
+  margin-top: 20px;
+  }
+
+  #why h1{
+    padding: 0;
+  }
+
+  #why{
+    background-color: #f2f2cd;
+    padding: 20px;
+  }
 }
