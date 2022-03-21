@@ -71,3 +71,32 @@ img {
 .clear {
   clear: both;
 }
+
+/* MOBILE VIEW */
+
+@media screen and (max-width: 420px) {
+
+  /* UTILITIES */
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .row{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    margin-top: 0;
+  }
+
+  h1{
+    padding: 20px 0 30px;
+  }
+
+  .container{
+    padding: 20px 0;
+  }
+}
