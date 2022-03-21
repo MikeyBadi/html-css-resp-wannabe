@@ -100,6 +100,12 @@ img {
     padding: 20px 0;
   }
 
+  img{
+    width: 30%;
+    height: auto;
+    margin-top: 0;
+  }
+
   /* BLOCCO LEZIONI */
   #lezioni .row>.left,
   #lezioni .row>.right{
@@ -108,6 +114,15 @@ img {
   }
   #lezioni{
     background-color: #f2f2cd;
+  }
+
+
+  /* BLOCCO STEPS */
+  #steps .row>.left,
+  #steps .row>.central,
+  #steps .row>.right {
+  width: 100%;
+  margin: 30px;
   }
 
 }
